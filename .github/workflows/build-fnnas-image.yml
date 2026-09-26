@@ -265,10 +265,10 @@ on:
       kernel_repo:
         description: "Set fnnas kernel repository"
         required: false
-        default: "ophub/fnnas"
+        default: "yanhy2000/fnnas"
         type: choice
         options:
-          - ophub/fnnas
+          - yanhy2000/fnnas
       fnnas_kernel:
         description: "Select fnnas kernel version"
         required: false
